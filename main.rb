@@ -14,7 +14,7 @@ manager.list_tasks
 puts "\nSearching for 'git':"
 manager.search("git")
 
-puts "\nDeleting task #1:"
-manager.delete_task(1)
-puts "\nAll tasks after deletion:"
+puts "\nMarking second task as completed:"
+manager.complete_task(2)
+puts "\nAll tasks after completion:"
 manager.list_tasks
