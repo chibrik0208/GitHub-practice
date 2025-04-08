@@ -18,3 +18,8 @@ puts "\nMarking second task as completed:"
 manager.complete_task(2)
 puts "\nAll tasks after completion:"
 manager.list_tasks
+
+puts "\nMarking task #2 as important:"
+manager.mark_important(2)
+puts "\nAll tasks:"
+manager.list_tasks
